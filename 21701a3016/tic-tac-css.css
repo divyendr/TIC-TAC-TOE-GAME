@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+
+.board div {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.board div:hover {
+    background-color: #ddd;
+}
+
+.status {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
